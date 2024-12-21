@@ -4,7 +4,6 @@ class Solution {
         postorder(root.left ,ans);
         postorder(root.right,ans);
         ans.add(root.val);
-
     }
     public List<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> ans = new ArrayList<>();
